@@ -1,0 +1,6 @@
+subnet 192.168.100.0 netmask 255.255.255.0{
+range 192.168.100.129 192.168.100.191;
+option routers 192.168.100.254;
+option domain-name "intranet.company.be";
+option domain-name-servers 192.168.100.1;
+}

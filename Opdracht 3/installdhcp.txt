@@ -1,0 +1,8 @@
+ddns-update-style none;
+default-lease-time 600;
+max-lease-time 7200;
+#ping true;
+option domain-name-servers 192.168.100.2, 192.168.100.3;
+option domain-name "intranet.mijnschool.be";
+authorative;
+log-facility local7;
